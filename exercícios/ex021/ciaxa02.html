@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags </title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            
+        
+        }
+
+            header{
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+
+        }
+        nav{
+            background-color: rgb(75, 75, 75);
+            padding: 3px;
+            box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.199);
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius:  25px 0px;
+            box-shadow: 4px 4px 9px 1px rgba(0, 0, 0, 0.411);
+            
+
+        }
+        article{
+            background-color: rgba(211, 211, 211, 0.685);
+        }
+        article  > aside{
+            background-color: rgb(66, 62, 62);
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="https://www.youtube.com/cursoemvideo" target="_blank">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+    
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo voluptatibus laboriosam dignissimos rem vitae possimus, eaque sit dicta ullam velit accusantium, odio aliquam soluta doloribus? Nesciunt fuga id iste.</p>
+                <aside>
+                    <p id="artigo">artigo escrito por um CEO - SENIOR
+                       Dr.João Gabriel
+                    </p>
+
+                </aside>
+            
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Desenvolvido por um Junior, Dr.João Gabriel Silva rocha</p>
+
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>
