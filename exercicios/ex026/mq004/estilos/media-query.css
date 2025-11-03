@@ -11,7 +11,27 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 @media print{ /* IMPRESSÃO*/
-
+    body{
+        background-image: url('../imagens/back-print.jpg'); /* <-- Desnecessário*/
+    }
+    main{
+        border: 2px solid black;
+        width: 90vw;
+    }
+    main::after{
+        content: 'Essa impressão foi através do site www.cursoemvideo.com';
+        text-decoration: overline;
+    }
+    main h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+    img#phone{display: none;}
+    #tablet{display: none;}
+    #print{display: block;}
+    #pc{display: none;}
+    #tv{display: none;}
 }
 
 
@@ -48,5 +68,7 @@ Grandes telas: acima de 1200px
     #print{display: none;}
     #pc{display: none;}
     #tv{display: block;}
-
+    main{
+        width: 700px
+    }
 }
