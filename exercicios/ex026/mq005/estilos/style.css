@@ -19,6 +19,7 @@ header > h1{
 }
 nav{
     margin-bottom: 10px;
+    display: none;
 }
 nav a{
     text-decoration: none;
@@ -38,6 +39,19 @@ nav li{
     padding: 10px;
     background-color: rgb(53, 53, 53);
     border-top: 2px solid gray;
+
+}
+span#menu{
+    background-color: rgb(58, 58, 58);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+span#menu:hover{
+    background-color: white;
+    color: black;
 
 }
 main{
